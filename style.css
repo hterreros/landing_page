@@ -1,0 +1,65 @@
+/* .rounded-3{
+    background-image:url("images/fondo.webp");
+} */
+.container-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fw-bold {
+    color: black;
+}
+
+.card-title {
+    color: black;
+}
+
+.card-text {
+    color: #000000;
+}
+
+.container-cards {
+    display: flex;
+}
+
+img.izquierda {
+    float: left;
+}
+
+.card-deck {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-img-top:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #000000;
+    -webkit-box-shadow: 0px 0px 15px 15px #000000;
+    ;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.img-fluid:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #000000;
+    ;
+    -webkit-box-shadow: 0px 0px 15px 15px #000000;
+    ;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+#productos {
+    margin-left: 80px;
+}
+
+.contactos {
+    margin-left: 80px;
+    display: flex;
+}
+
+#contacto {
+    margin-left: 80px;
+}
