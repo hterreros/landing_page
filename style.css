@@ -1,21 +1,11 @@
-/* .rounded-3{
-    background-image:url("images/fondo.webp");
-} */
+.container-welcome {
+    display: flex;
+    margin-left: 10px;
+}
+
 .container-cards {
     display: flex;
     justify-content: space-around;
-}
-
-.fw-bold {
-    color: black;
-}
-
-.card-title {
-    color: black;
-}
-
-.card-text {
-    color: #000000;
 }
 
 .container-cards {
@@ -24,8 +14,14 @@
 
 img.izquierda {
     float: left;
+    height: 80px;
+    width: 80px;
 }
-
+img.abajo {
+    float: right;
+    height: 80px;
+    width: 80px;
+}
 .card-deck {
     display: flex;
     justify-content: space-around;
@@ -52,14 +48,14 @@ img.izquierda {
     -webkit-transform: rotate(360deg);
 }
 #productos {
-    margin-left: 80px;
+    margin-left: 10px;
 }
 
 .contactos {
-    margin-left: 80px;
+    margin-left: 10px;
     display: flex;
 }
 
 #contacto {
-    margin-left: 80px;
+    margin-left: 10px;
 }
